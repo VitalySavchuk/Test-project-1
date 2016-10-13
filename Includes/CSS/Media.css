@@ -1,0 +1,139 @@
+/*------------------------------------------------
+				MEDIA QUERIES	
+------------------------------------------------*/
+
+/*STYLES FOR DESKTOPS*/
+
+@media only screen and (max-width: 1200px) {
+
+	.navbar {
+		margin: 0;
+	}
+
+	.navbar-brand {
+		margin-top: -45px;
+		margin-left: 5px;
+	}
+
+	.navbar-email {
+		margin-left: 340px;
+		font-size: 18px;
+		margin-top: 25px;
+	}
+
+	.navbar button {
+		margin-left: 680px;
+		width: 200px;
+		height: 40px;
+	}
+
+	.navbar .planetIconNavbar {
+		right: 10px;
+		line-height: 100px;
+	}
+
+	.navMenu .glyphicon-search {
+		float: right;
+		margin-right: 10px;
+	}
+
+	/*class visible-lg doesn't work in html, word "English" fells under planet icon, so I had to use following style here*/
+
+	.fa-globe {
+		display: none;
+	}
+
+	/*----------------------------------------------------------------
+					STYLES FOR MAIN CONTENT
+	----------------------------------------------------------------*/
+
+	#coverPhoto {
+		background-image: url('../Images/coverPhotoMD.jpg');
+	    background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	}
+
+	#coverPhoto h5 {
+		padding: 20px 0 0 10px;
+	}
+	.secondTitle span {
+		border-bottom: 1px solid white;
+	}
+
+	#features {
+		margin-top: -120px;
+	}
+
+
+	/*---------------------------------------------------------------
+						STYLES FOR FOOTER
+	----------------------------------------------------------------*/
+
+	footer {
+		height: 300px;
+	}
+
+	.panel {
+		height: 250px;
+		padding-top: 60px;
+	}
+
+	#socialPages {
+		mar
+	}
+
+	/* "visible-lg" class for i (Google+ icon) doesn't work, so I had to use following style*/
+
+
+	#socialPages i:last-child {
+		display: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+
+
+			
+	.navbar {
+		height: 50px;
+		line-height: 50px;
+	}
+
+	.navbar-brand img {
+		width: 150px;
+		margin-top: 10px;
+	}
+
+	.navbar .planetIconNavbar {
+		height: 50px;
+		line-height: 50px;
+		width: 70px;
+	}
+
+	#coverPhoto {
+		background: url('../Images/mother_for_sm.jpg');
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+
+
+
+	
+	.additionalInfo li a {
+		display: none; 
+	}
+
+	.additionalInfo {
+		padding: 0;
+		text-align: center;
+	}
+
+}
